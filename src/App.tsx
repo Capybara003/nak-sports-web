@@ -29,6 +29,7 @@ import BuyCoursePage from './components/pages/BuyCoursePage';
 import BookingLessonPage from './components/pages/BookingLessonPage';
 import BookingEquipmentPage from './components/pages/BookingEquipmentPage';
 import BookingDetailsPage from './components/pages/BookingDetailsPage';
+import { ToastContainer } from 'react-toastify';
 
 // Create a client
 const queryClient = new QueryClient({
@@ -84,10 +85,6 @@ function App() {
     setIsAuthenticated(false);
   };
 
-  const toggleDemoMode = () => {
-    setIsDemoMode(!isDemoMode);
-  };
-
   if (isLoading) {
     return (
       <div className="App bg-white min-h-screen flex items-center justify-center">
@@ -101,8 +98,10 @@ function App() {
       <QueryClientProvider client={queryClient}>
         <Routes>
           <Route path="/login" element={<LoginPage onLogin={handleLogin} />} />
+          <Route path="/register" element={<RegisterPage />} />
           <Route path="*" element={<LoginPage onLogin={handleLogin} />} />
         </Routes>
+        <ToastContainer position="top-center" theme="dark" autoClose={3000} />
       </QueryClientProvider>
     );
   }
@@ -110,14 +109,6 @@ function App() {
   return (
     <QueryClientProvider client={queryClient}>
       <div className="App bg-white min-h-screen">
-        {isDemoMode && (
-          <div className="bg-primary text-white text-center py-2 px-4">
-            <p className="text-sm font-medium">
-              🎯 Demo Mode Active - Using mock data for testing
-            </p>
-          </div>
-        )}
-
         <Routes>
           <Route path="/agenda" element={<AgendaPage />} />
           <Route path="/history" element={<HistoryPage />} />
@@ -148,21 +139,9 @@ function App() {
           <Route path="*" element={<AgendaPage />} />
         </Routes>
 
-        <BottomTabBar activeTab={activeTab} onTabChange={handleTabChange} />
-
-        <div className="fixed top-4 right-4 z-50">
-          <button
-            onClick={toggleDemoMode}
-            className={`px-3 py-2 rounded-lg text-xs font-medium transition-colors ${
-              isDemoMode 
-                ? 'bg-primary text-white' 
-                : 'bg-white text-dark border border-grey hover:bg-light-grey'
-            }`}
-          >
-            {isDemoMode ? 'Demo ON' : 'Demo OFF'}
-          </button>
-        </div>
+        <BottomTabBar activeTab={activeTab} onTabChange={handleTabChange} />        
       </div>
+      <ToastContainer position="top-center" theme="dark" autoClose={3000} />
     </QueryClientProvider>
   );
 }

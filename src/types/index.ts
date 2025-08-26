@@ -44,6 +44,23 @@ export interface LoginResponse {
   token: AuthToken;
 }
 
+// Add registration types
+export interface RegisterRequest {
+  firstName: string;
+  lastName: string;
+  secondLastName?: string;
+  nif?: string;
+  address?: string;
+  email: string;
+  phone?: string;
+  password: string;
+}
+
+export interface RegisterResponse {
+  user: User;
+  token?: AuthToken;
+}
+
 // Event and Booking types
 export interface Event {
   hash: string;

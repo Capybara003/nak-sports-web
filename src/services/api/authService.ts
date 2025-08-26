@@ -25,6 +25,32 @@ export class AuthService {
     }
   }
 
+  // Register user
+  static async register(request: import('../../types').RegisterRequest): Promise<import('../../types').RegisterResponse> {
+    try {
+      const response = await httpClient.post<import('../../types').RegisterResponse>('auth/register', request, {
+        headers: { 'ANONYMOUS': 'true' }
+      });
+
+      // If API also returns tokens, persist them
+      if (response.data?.token?.accessToken) {
+        localStorage.setItem('authToken', response.data.token.accessToken);
+        if (response.data.token.refreshToken) {
+          localStorage.setItem('refreshToken', response.data.token.refreshToken);
+        }
+      }
+
+      if (response.data?.user?.hash) {
+        localStorage.setItem('userHash', response.data.user.hash);
+        localStorage.setItem('user', JSON.stringify(response.data.user));
+      }
+
+      return response.data;
+    } catch (error: any) {
+      throw new Error(error.response?.data?.message || 'Registration failed');
+    }
+  }
+
   // Refresh token
   static async refreshToken(): Promise<AuthToken> {
     try {
