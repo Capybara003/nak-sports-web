@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="17px" height="17px" viewBox="0 0 17 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Icons/Hour</title>
+    <defs>
+        <path d="M8,0 L8,0 C3.58172,0 0,3.58172 0,8 C0,12.41828 3.58172,16 8,16 C12.41828,16 16,12.41828 16,8 L16,8 C16,3.58172035 12.41828,0 8,0 L8,0 Z M8.66666702,9.33333343 L4.66666702,9.33333343 L4.66666699,9.33333343 C4.29847699,9.33333343 4.00000032,9.03485667 4.00000032,8.66666667 C4.00000032,8.29847667 4.29847699,8 4.66666699,8 L7.33333365,8 L7.33333365,4 L7.33333365,4.0000001 C7.3333336,3.6318101 7.63181032,3.33333343 8.00000032,3.33333343 C8.36819032,3.33333343 8.66666702,3.6318101 8.66666702,4.0000001 C8.66666702,4.0000001 8.66666702,4.0000001 8.66666702,4.0000001 L8.66666702,9.33333343 Z" id="path-1"></path>
+    </defs>
+    <g id="Design-System" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-311.000000, -384.000000)">
+            <g id="Icons/Hour" transform="translate(311.500000, 384.250000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Fill" fill="#101E39" xlink:href="#path-1"></use>
+            </g>
+        </g>
+    </g>
+</svg>

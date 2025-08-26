@@ -1,0 +1,753 @@
+{
+    "home": {
+      "logout": "Disconnettersi",
+      "title": "Nak Sports",
+      "errorLoadingUser": "Si è verificato un errore durante il caricamento dell'utente"
+    },
+    "bottomBar": {
+      "agenda": "Agenda",
+      "history": "Storico",
+      "reserve": "Prenotare",
+      "explore": "Mappa & Ricerca",
+      "menu": "Menu"
+    },
+    "menu": {
+      "title": "Menu",
+      "profile": "Profilo",
+      "incidents": "Incidenti",
+      "help": "Aiuto",
+      "legal": "Legale",
+      "share": "Condividi App",
+      "locale": "Seleziona lingua",
+      "logout": "Disconnettersi"
+
+    },
+    "login": {
+      "email": "Email",
+      "emailError": "Inserisci un'email valida",
+      "error": "Email o password errati",
+      "button": "Accedi",
+      "password": "Password",
+      "passwordError": "Inserisci una password",
+      "subtitle": "Per favore accedi",
+      "title": "Accedi",
+      "forgotPassword": "Hai dimenticato la password?",
+      "remember": "Mantieni l'accesso",
+      "register": "Registrati",
+      "noAccount": "Non hai ancora un account?",
+      "showPassword": "Mostra",
+      "hidePassword": "Nascondi"
+    },
+    "passwordRecovery": {
+      "title": "Recupera password",
+      "subtitle": "Per favore, inserisci la tua email qui sotto per ricevere istruzioni su come recuperare la tua password.",
+      "email": "Email",
+      "emailError": "Inserisci un'email valida",
+      "button": "Recupera password",
+      "alreadyAccount": "Hai già un account?",
+      "login": "Accedi",
+      "success": "È stata inviata un'email al tuo account con le istruzioni per recuperare la tua password",
+      "error": "Si è verificato un errore durante il recupero della password"
+    },
+    "changePassword": {
+      "title": "Cambia password",
+      "currentPassword": "Password attuale",
+      "currentPasswordError": "Inserisci la tua password attuale",
+      "newPassword": "Nuova password",
+      "newPasswordError": "Inserisci una nuova password",
+      "newPasswordErrorLength": "La nuova password deve avere almeno 8 caratteri",
+      "newPasswordErrorUppercase": "La nuova password deve avere almeno 1 maiuscola",
+      "newPasswordErrorNumber": "La nuova password deve avere almeno 1 numero",
+      "newPasswordConfirmation": "Ripeti nuova password",
+      "newPasswordConfirmationError": "Ripeti la nuova password",
+      "passwordsNotMatchError": "Le password non corrispondono",
+      "passwordLengthCorrect": "Minimo 8 caratteri",
+      "passwordContainsUppercase": "1 maiuscola",
+      "passwordContainsNumber": "1 numero",
+      "success": "La password è stata cambiata correttamente",
+      "error": "Si è verificato un errore durante il cambio della password",
+      "button": "Salva modifiche",
+      "cancel": "Annulla"
+    },
+    "register": {
+      "title": "Registrati",
+      "name": "Nome",
+      "surname1": "Cognome 1",
+      "surname2": "Cognome 2",
+      "nif": "NIF",
+      "nifEmptyError": "Inserisci un NIF",
+      "address": "Indirizzo",
+      "email": "Email",
+      "phone": "Telefono",
+      "password": "Password",
+      "passwordEmptyError": "Inserisci una password",
+      "passwordConfirmation": "Ripeti password",
+      "passwordConfirmationEmptyError": "Ripeti la password",
+      "passwordsNotMatchError": "Le password non corrispondono",
+      "next": "Successivo",
+      "completeRegister": "Completa la registrazione",
+      "sport": "Quale sport ti interessa?",
+      "sportError": "Si è verificato un errore durante il caricamento degli sport",
+      "country": "In quale paese?",
+      "countryError": "Si è verificato un errore durante il caricamento dei paesi",
+      "province": "In quale provincia?",
+      "provinceError": "Si è verificato un errore durante il caricamento delle province",
+      "city": "In quale città?",
+      "cityError": "Si è verificato un errore durante il caricamento delle città",
+      "club": "In quale club?",
+      "clubError": "Si è verificato un errore durante il caricamento dei club",
+      "button": "Registrati",
+      "alreadyAccount": "Hai già un account?",
+      "login": "Accedi",
+      "registerUserSuccess": "Utente registrato correttamente",
+      "registerUserError": "Si è verificato un errore durante la registrazione",
+      "nifAlreadyExists": "Il NIF inserito esiste già nel registro",
+      "emailAlreadyExists": "L'email inserita esiste già nel registro"
+    },
+    "agenda": {
+      "title": "Agenda",
+      "greeting": "Ciao",
+      "errorLoadingUserBookings": "Si è verificato un errore durante il caricamento delle prenotazioni"
+
+    },
+    "removeFavoriteDialog": {
+      "title": "Rimuovi preferito",
+      "message": "Sei sicuro di voler rimuovere il preferito?",
+      "cancel": "Annulla",
+      "remove": "Rimuovi",
+      "addFavoriteError": "Si è verificato un errore durante l'aggiunta del preferito",
+      "removeFavoriteError": "Si è verificato un errore durante la rimozione del preferito"
+    },
+    "history": {
+      "title": "Storico",
+      "emptyHistory": "Non sono state trovate prenotazioni",
+      "loadHistoryError": "Si è verificato un errore durante il caricamento dello storico",
+      "allBookings": "Tutte",
+      "pendingBookings": "In sospeso",
+      "passedBookings": "Passate",
+      "courseBookings": "Corsi e corsi brevi",
+      "exploreCallToActionTitle": "Esplorare",
+      "exploreCallToActionSubtitle": "Seleziona sport, provincia, club…"
+    },
+
+
+    "bookingDetails": {
+      "teacher": "Insegnante: ",
+      "club": "Club: ",
+      "price": "Prezzo: ",
+      "comments": "Commenti",
+      "cancelBooking": "Annulla questa prenotazione",
+      "rate": "Valuta",
+      "rateTeacherTitle": "Valuta insegnante",
+      "rateClubTitle": "Valuta club",
+      "rateTeacherSubtitle": "Più dettagli sulla tua esperienza",
+      "rateTeacherComments": "Commenti",
+      "rateTeacherCancel": "Annulla",
+      "rateTeacherSend": "Invia valutazione",
+      "sentRatingError": "Si è verificato un errore durante l'invio della valutazione",
+      "sentRatingSuccess": "La valutazione è stata inviata correttamente",
+      "canceled": "Annullata",
+      "cancelBookingDialog": {
+        "title": "Annulla prenotazione",
+        "message": "Sei sicuro di voler annullare questa prenotazione?",
+        "cancel": "No",
+        "ok": "Sì",
+        "cancelBookingError": "Si è verificato un errore durante l'annullamento della prenotazione",
+        "cancelBookingSuccess": "La prenotazione è stata annullata correttamente"
+
+
+
+
+      }
+    },
+    "profile": {
+      "title": "Profilo utente",
+      "edit": "Modifica",
+      "favorites": "I miei preferiti",
+      "paymentMethods": "I miei metodi di pagamento",
+      "vouchers": "I miei buoni",
+      "notifications": "Avvisi e notifiche",
+      "changePassword": "Cambia password",
+      "changeUserImageError": "Si è verificato un errore durante il cambio dell'immagine utente",
+      "permissionDialog": {
+        "title": "Accesso alle foto",
+        "description": "È necessario il permesso per accedere alle foto per poter aggiornare la foto del profilo.",
+        "active": "Attiva",
+        "cancel": "Annulla"
+      },
+      "delete": "Elimina",
+      "deleteAccountDialog": {
+        "title": "Elimina account",
+        "message": "Sei sicuro di voler eliminare il tuo account?",
+        "ok": "Sì",
+        "cancel": "No"
+      },
+      "deleteAccountSuccess": "Utente eliminato correttamente",
+      "deleteAccountError": "Si è verificato un errore durante l'eliminazione dell'utente"
+    },
+    "editProfile": {
+      "title": "Modifica dati personali",
+      "name": "Nome",
+      "surname1": "Cognome 1",
+      "surname2": "Cognome 2",
+      "address": "Indirizzo",
+      "email": "Email",
+      "phone": "Telefono",
+      "button": "Salva modifiche",
+      "success": "I dati sono stati cambiati correttamente",
+      "error": "Si è verificato un errore durante il cambio dei dati",
+      "discardChangesDialog": {
+        "title": "Scarta modifiche",
+        "message": "Sei sicuro di voler scartare le modifiche?",
+        "cancel": "Annulla",
+        "discard": "Scarta"
+      }
+    },
+    "userVouchers": {
+      "title": "I miei buoni",
+      "teacher": "Insegnante: ",
+      "club": "Club: ",
+      "voucherLessonsNumber": "Buono di {{value}} lezioni",
+      "remainingLessons": "rimanenti: {{value}}",
+      "temporaryVoucher": "Buono temporaneo",
+      "redeemVoucher": "Riscatta buono",
+      "loadUserVouchersError": "Si è verificato un errore durante il caricamento dei buoni",
+      "recurrent": "Rinnovo automatico",
+      "changeRecurrentVoucherError": "Si è verificato un errore durante il cambio del rinnovo automatico",
+      "emptyVouchers": "Non hai buoni",
+      "price": "Prezzo: "
+    },
+    "userNotifications": {
+      "title": "Notifiche",
+      "emptyNotifications": "Non hai notifiche",
+      "loadUserNotificationsError": "Si è verificato un errore durante il caricamento delle notifiche"
+    },
+    "userPaymentMethods": {
+      "title": "I miei metodi di pagamento",
+      "loadUserPaymentMethodsError": "Si è verificato un errore durante il caricamento dei metodi di pagamento",
+      "emptyPaymentMethods": "Non hai metodi di pagamento",
+      "cardNumber": "Numero di carta",
+      "expiration": "Scadenza",
+      "removePaymentMethodDialog": {
+        "title": "Rimuovi metodo di pagamento",
+        "message": "Sei sicuro di voler rimuovere il metodo di pagamento?",
+        "cancel": "Annulla",
+        "remove": "Sì, rimuovi"
+      },
+      "changePaymentMethodDialog": {
+        "title": "Vuoi modificare il tuo preferito?",
+        "message": "Sei sicuro di voler modificare il tuo preferito?",
+        "cancel": "Annulla",
+        "remove": "Sì, modifica"
+      },
+      "addNew": "Aggiungi nuovo",
+      "removePaymentMethodSuccess": "Il metodo di pagamento è stato rimosso correttamente",
+      "removePaymentMethodError": "Si è verificato un errore durante la rimozione del metodo di pagamento",
+      "changeFavouriteSuccess": "Il metodo di pagamento preferito è stato aggiornato correttamente",
+      "changeFavouriteError": "Si è verificato un errore durante l'aggiornamento del metodo di pagamento preferito",
+      "hasPendingPayments": "Il metodo di pagamento ha pagamenti in sospeso",
+      "checkout": {
+        "canceled": "L'operazione è stata annullata",
+        "success": "Il metodo di pagamento è stato aggiunto correttamente"
+      }
+    },
+    "userFavorites": {
+      "title": "Preferiti",
+      "emptyFavorites": "Non hai preferiti",
+      "loadUserFavoritesError": "Si è verificato un errore durante il caricamento dei preferiti",
+      "teacher": "Insegnante: ",
+      "club": "Club: "
+    },
+    "validations": {
+      "nameEmptyError": "Inserisci un nome",
+      "nameHasNumberError": "Il nome non può contenere numeri",
+      "surnameEmptyError": "Inserisci un cognome",
+      "surnameHasNumberError": "Il cognome non può contenere numeri",
+      "addressEmptyError": "Inserisci un indirizzo",
+      "emailEmptyError": "Inserisci un'email",
+      "emailError": "Inserisci un'email valida",
+      "phoneEmptyError": "Inserisci un telefono",
+      "phoneError": "Il telefono deve contenere 9 numeri"
+    },
+    "help": {
+      "title": "Aiuto",
+      "subtitle": "Se hai domande o richieste puoi contattare NAK Sports",
+      "byEmail": "Per email",
+      "byPhone": "Per telefono",
+      "version": "Versione:",
+      "versionLoadingError": "Si è verificato un errore durante il caricamento della versione dell'app"
+    },
+    "legal": {
+      "title": "Legale",
+      "subtitle": "Informazioni legali",
+      "privacyPolicy": "Politica sulla privacy",
+      "privacyPolicyLoadingError": "Si è verificato un errore durante il caricamento della politica sulla privacy",
+      "emptyPrivacyPolicy": "Non è stata trovata la politica sulla privacy",
+      "termsAndConditions": "Termini e condizioni",
+      "termsAndConditionsLoadingError": "Si è verificato un errore durante il caricamento dei termini e condizioni",
+      "emptyTermsAndConditions": "Non sono stati trovati termini e condizioni"
+    },
+    
+    "explore": {
+      "title": "Esplorare",
+      "sport": "Sport",
+      "allSports": "Tutti gli sport",
+      "country": "Paese",
+      "region": "Provincia",
+      "allRegions": "Tutte le province",
+      "club": "Club",
+      "allClubs": "Tutti i club",
+      "teacher": "Insegnante",
+      "allTeachers": "Tutti gli insegnanti",
+      "show": "Mostra solo",
+      "vouchers": "Buoni",
+      "courses": "Corsi",
+      "smallCourses": "Corsi brevi",
+      "lessons": "Lezioni",
+      "equipments": "Noleggio"
+    },
+  "map": {
+    "title": "Insegnanti e Club",
+    "coaches": "Insegnanti",
+    "clubs": "Club",
+    "continueToBooking": "SUCCESSIVO",
+    "selectLocationFirst": "Seleziona una posizione prima"
+  },
+    "vouchers": {
+      "title": "Acquista buoni",
+      "clubVouchers": "Buoni del club",
+      "teacherVouchers": "Di un insegnante",
+      "noVouchers": "Non sono stati trovati buoni corrispondenti alla tua ricerca"
+    },
+    "selectVoucher": {
+      "title": "Acquista buoni",
+      "clubSubtitle": "Buoni del club",
+      "teacherSubtitle": "Buoni dell'insegnante",
+      "lessonNumber": "{{value}} lezione",
+      "lessonNumberPlural": "{{value}} lezioni",
+      "temporaryVoucher": "Buono temporaneo - {{value}}",
+      "confirmation": {
+        "title": "Dettagli del tuo acquisto",
+        "voucher": "Buono",
+        "lessons": "Lezioni",
+        "club": "Club",
+        "teacher": "Insegnante",
+        "conditions": "Condizioni:",
+        "seeAll": "Vedi tutto",
+        "collapse": "Riduci",
+        "total": "TOTALE:",
+        "recurrent": "Rinnova automaticamente alla scadenza",
+        "buttonPay": "Conferma acquisto",
+        "success": "Buono acquistato!",
+        "completed": "Acquisto completato correttamente",
+        "paid": "Pagato"
+      }
+    },
+    "bookingLesson": {
+      "title": "Nuova prenotazione",
+      "selectClub": "Club",
+      "skipClub": "Salta",
+      "selectTeacher": "Insegnante",
+      "noClubsLessons": "Non sono stati trovati club con lezioni corrispondenti alla tua ricerca",
+      "noLessons": "Non sono state trovate lezioni corrispondenti alla tua ricerca",
+      "nextButton": "Successivo",
+      "selectedLessonsTitle": "Lezioni selezionate",
+      "bookAll": "Prenota tutte",
+      "cancelAll": "Annulla tutte",
+      "bookingSuccess": "Lezione prenotata!",
+      "noAvailableLessonsToBook": "Nessuna lezione disponibile da prenotare",
+      "noBookedLessonsToCancel": "Nessuna prenotazione da annullare",
+      "confirmBookAllTitle": "Conferma Prenota Tutte",
+      "confirmBookAllMessage": "Sei sicuro di voler prenotare tutte le lezioni selezionate?",
+      "confirmBookAllOk": "Sì, Prenota Tutte",
+      "confirmBookAllCancel": "Annulla",
+      "confirmCancelAllTitle": "Conferma Annulla Tutte",
+      "confirmCancelAllMessage": "Sei sicuro di voler annullare tutte le prenotazioni selezionate?",
+      "confirmCancelAllOk": "Sì, Annulla Tutte",
+      "confirmCancelAllCancel": "Annulla",
+      "allLessonsBookedSuccess": "Tutte le lezioni prenotate con successo!",
+      "someLessonsBookedSuccess": "Alcune lezioni sono state prenotate con successo",
+      "noLessonsBookedError": "Nessuna lezione è stata prenotata",
+      "allLessonsCanceledSuccess": "Tutte le prenotazioni annullate con successo!",
+      "someLessonsCanceledSuccess": "Alcune prenotazioni sono state annullate con successo",
+      "noLessonsCanceledError": "Nessuna prenotazione è stata annullata",
+      "bookAllError": "Si è verificato un errore durante la prenotazione delle lezioni",
+      "cancelAllError": "Si è verificato un errore durante l'annullamento delle prenotazioni",
+      "bookingDetails": {
+        "title": "Dettagli della prenotazione",
+        "sport": "Sport",
+        "club": "Club",
+        "region": "Provincia",
+        "teacher": "Insegnante"
+      },
+      "schedule": {
+        "day": "Giorno",
+        "week": "Settimana",
+        "month": "Mese"
+      },
+      "confirmation": {
+        "title": "Dettagli della tua prenotazione",
+        "total": "Totale: ",
+        "club": "Club: ",
+        "teacher": "Insegnante: ",
+        "equipmentRent": "Aggiungere materiale a noleggio?"
+      },
+      "targets": {
+        "selectTargetTitle": "Per chi è questa lezione?",
+        "selectTargetSubtitle": "e/o per questa/e persona/e",
+        "targetName": "Nome e cognome",
+        "targetAge": "Età",
+        "targetCurrentUser": "Per me",
+        "add": "Aggiungi"
+      },
+      "equipment": {
+        "title": "SELEZIONE ATTREZZATURA",
+        "subtitle": "Seleziona l'attrezzatura per te e altri partecipanti:",
+        "confirmationTitle": "CONFERMA ATTREZZATURA",
+        "confirmationSubtitle": "Seleziona e gestisci l'attrezzatura per tutti i partecipanti:",
+        "equipmentSelection": "Selezione Attrezzatura:",
+        "forYou": "Per te:",
+        "forPerson": "Per {{name}}:",
+        "selectAndManage": "Seleziona e gestisci l'attrezzatura per tutti i partecipanti:"
+      },
+      "bookingCompleted": {
+        "smallCourseTitle": "Corso breve acquistato correttamente",
+        "courseTitle": "Corso acquistato correttamente",
+        "paid": "Pagato: ",
+        "exportToCalendar": "Esporta nel calendario",
+        "exportToCalendarSuccess": "Il corso è stato esportato correttamente nel calendario",
+        "exportToCalendarSmallCourseSuccess": "Il corso breve è stato esportato correttamente nel calendario",
+        "exportToCalendarError": "Si è verificato un errore durante l'esportazione del corso nel calendario",
+        "exportToCalendarSmallCourseError": "Si è verificato un errore durante l'esportazione del corso breve nel calendario"
+      },
+      "permissionDialog": {
+        "title": "Accesso al calendario",
+        "description": "È necessario il permesso per accedere al calendario per poter esportare gli eventi.",
+        "active": "Attiva",
+        "cancel": "Annulla"
+      },
+      "bookingLessonError": "Si è verificato un errore durante l'acquisto",
+      "notPossibleToBuy": {
+        "title": "Prenotazione non disponibile",
+        "description": "In questo momento non è possibile effettuare questa prenotazione..."
+      },
+      "lockedByMinimunNoticeDateDialog" : {
+        "title" : "Lezione bloccata",
+        "message": "La lezione poteva essere prenotata prima del {{value}}",
+        "close": "Chiudi"
+      },
+      "lockedByMaximumStudentsReached" : {
+        "title" : "Lezione bloccata",
+        "message": "La lezione non può essere prenotata avendo raggiunto il massimo delle prenotazioni",
+        "close": "Chiudi"
+      },
+      "lockedByBookingNotArrivedToMinimumStudents" : {
+        "title" : "Lezione bloccata",
+        "message": "La lezione non ha raggiunto il numero minimo di prenotazioni",
+        "close": "Chiudi"
+      },
+      "lockedByOtherReason" : {
+        "title" : "Lezione bloccata",
+        "message": "La lezione non può essere prenotata",
+        "close": "Chiudi"
+      },
+      "filters": {
+        "adultLessons": "Lezioni per adulti",
+        "childLessons": "Lezioni per bambini",
+        "ageFilter": "Età",
+        "age": "1-18 anni",
+        "level": "Livello",
+        "selectLevel": "Seleziona livello",
+        "lessonType": "Tipo di lezione",
+        "selectLessonType": "Seleziona tipo di lezione",
+        "searchLessonsButton": "Cerca lezioni"
+      },
+      "errorLoadingLessonLevel": "Si è verificato un errore durante il caricamento del livello della lezione",
+      "alreadyBooked": "Questa lezione è già prenotata",
+      "bookingError": "Si è verificato un errore durante la prenotazione della lezione",
+      "notBookedYet": "Questa lezione non è ancora prenotata",
+      "cancellationError": "Si è verificato un errore durante l'annullamento della lezione",
+      "eventFinished": "Questo evento è già terminato",
+      "minimumNoticeDateNotMet": "Questo evento non può ancora essere prenotato a causa dei requisiti di preavviso minimo",
+      "maximumStudentsReached": "Questo evento è completo e non può accettare più prenotazioni",
+      "minimumStudentsNotReached": "Questo evento ha bisogno di più partecipanti prima di poter essere prenotato",
+      "eventLocked": "Questo evento è attualmente bloccato e non può essere prenotato",
+      "eventNotAvailable": "Questo evento non è disponibile per la prenotazione",
+      "noPricesFound": "Nessuna informazione sui prezzi trovata per questo evento",
+      "noValidPriceFound": "Nessun prezzo valido trovato per questo evento",
+      "invalidPrice": "Prezzo non valido per questo evento",
+      "missingRequiredFields": "Informazioni richieste mancanti per la prenotazione",
+      "multipleBookingSuccess": "{{count}} lezioni prenotate con successo!",
+      "userNotAuthenticated": "Utente non autenticato. Per favore, accedi di nuovo.",
+      "invalidEvent": "Evento non valido selezionato. Per favore, riprova.",
+      "noEventSelected": "Per favore, seleziona un evento da prenotare.",
+      "noTeacherSelected": "Per favore, seleziona un insegnante.",
+      "noParticipants": "Per favore, aggiungi almeno un partecipante o seleziona 'Per me'.",
+      "noPaymentMethodSelected": "Per favore, seleziona un metodo di pagamento.",
+          "noVoucherSelected": "Per favore, seleziona un voucher.",
+    "noPaymentTypeSelected": "Per favore, seleziona un tipo di pagamento.",
+    "unexpectedError": "Si è verificato un errore inaspettato. Per favore, riprova.",
+      "error": {
+        "bookingFailed": "Prenotazione non riuscita per una o più lezioni selezionate."
+      }
+    },
+    "buyCourse": {
+      "titleCourse": "Acquista corso annuale",
+      "titleSmallCourse": "Acquista corso breve",
+      "getCourseInfoError": "Si è verificato un errore durante il caricamento delle informazioni del corso",
+      "selectPaymentType": "Seleziona metodo di pagamento",
+      "adultCourses": "Corsi per adulti",
+      "level": "Livello",
+      "selectLevel": "Seleziona livello",
+      "childCourses": "Corsi per bambini",
+      "selectAge": "Seleziona fascia d'età",
+      "levelTypes": "Livello",
+      "courseType": "Tipo di corso",
+      "selectCourseType": "Seleziona tipo di corso",
+      "lessonWeek": "Lezioni/Settimana",
+      "selectLessonWeek": "Seleziona lezioni settimanali",
+      "oneLessonPerWeek": "{{value}} lezione/settimana",
+      "nLessonsPerWeek": "{{value}} lezioni/settimana",
+      "selectOk": "Seleziona",
+      "selectCancel": "Annulla",
+      "searchCoursesButton": "Cerca corsi",
+      "searchSmallCoursesButton": "Cerca corsi brevi",
+      "yourFilters": "I tuoi filtri",
+      "selecteSchedule": "Seleziona orario",
+      "inscriptionDetails": "Dettagli della tua iscrizione",
+      "total": "Totale",
+      "noCourses": "Non sono stati trovati corsi corrispondenti alla tua ricerca",
+      "noSmallCourses": "Non sono stati trovati corsi brevi corrispondenti alla tua ricerca",
+      "selectTargetTitle": "Per chi è questo corso?",
+      "selectTargetSubtitle": "e/o per questa/e persona/e",
+      "targetName": "Nome e cognome",
+      "targetAge": "Età",
+      "targetCurrentUser": "Per me",
+      "next": "Successivo",
+      "teacher": "Insegnante",
+      "paymentMethod": "Metodo di pagamento",
+      "selectPaymentMethod": "Seleziona metodo di pagamento",
+      "courseDays": "{{initWeekDay}} e {{endWeekDay}}",
+      "time": "{{initHour}} - {{endHour}} h",
+      "buy": "Acquista",
+      "buyCourseCompleted": "Corso acquistato!",
+      "buySmallCourseCompleted": "Corso breve acquistato!",
+      "buyCourseError": "Si è verificato un errore durante l'acquisto",
+      "buyCourseOkButton": "D'accordo",
+      "courseDates": "Dal {{startDate}} al {{endDate}}",
+      "selectClub": "Club",
+      "selectTeacher": "Insegnante",
+      "loadingErrors": {
+        "clubs": "Si è verificato un errore durante il caricamento dei club",
+        "teachers": "Si è verificato un errore durante il caricamento degli insegnanti",
+        "courses": "Si è verificato un errore durante il caricamento dei corsi",
+        "smallCourses": "Si è verificato un errore durante il caricamento dei corsi brevi",
+        "courseLevel": "Si è verificato un errore durante il caricamento del livello del corso"
+      },
+      "bookingCompleted": {
+        "smallCourseTitle": "Corso breve acquistato correttamente",
+        "courseTitle": "Corso acquistato correttamente",
+        "paid": "Pagato: ",
+        "exportToCalendar": "Esporta nel calendario",
+        "exportToCalendarSuccess": "Il corso è stato esportato correttamente nel calendario",
+        "exportToCalendarSmallCourseSuccess": "Il corso breve è stato esportato correttamente nel calendario",
+        "exportToCalendarError": "Si è verificato un errore durante l'esportazione del corso nel calendario",
+        "exportToCalendarSmallCourseError": "Si è verificato un errore durante l'esportazione del corso breve nel calendario"
+      },
+      "clubs": "Club",
+      "rooms": "Spazio",
+      "courseAgeRange": "{{startAge}} - {{endAge}} anni"
+    },
+    "termsAndConditions": {
+      "title": "Termini e condizioni",
+      "termsAndConditionsLoadingError": "Si è verificato un errore durante il caricamento dei termini e condizioni",
+      "acceptButton": "Accetta",
+      "acceptTermsAndConditionsError": "Si è verificato un errore durante l'accettazione dei termini e condizioni"
+    },
+    "privacyPolicy": {
+      "title": "Politica sulla privacy",
+      "privacyPolicyLoadingError": "Si è verificato un errore durante il caricamento della politica sulla privacy",
+      "acceptButton": "Accetta",
+      "acceptPrivacyPolicyError": "Si è verificato un errore durante l'accettazione della politica sulla privacy"
+    },
+    "levelTypes": {
+      "initialization": "Base",
+      "intermediate": "Intermedio",
+      "advanced": "Avanzato"
+    },
+    "lessonTypes": {
+      "alone": "Particolare",
+      "collective": "Collettivo"
+    },
+    "userTypes": {
+      "child": "Bambini",
+      "adult": "Adulti"
+    },
+    "paymentTypes": {
+      "unique": "Unico",
+      "monthly": "Mensile",
+      "quarterly": "Trimestrale"
+    },
+    "timeRangeTypes": {
+      "yearly": "Annuale",
+      "monthly": "Mensile",
+      "quarterly": "Trimestrale"
+    },
+    "bookingEquipment": {
+      "title": "Noleggio di materiale",
+      "clubs": "Club",
+      "teachers": "Insegnanti",
+      "noEquipments": "Non sono stati trovati materiali corrispondenti alla tua ricerca",
+      "nextButton": "Successivo",
+      "bookingSuccess": "Materiale noleggiato!",
+      "selectEquipment": {
+        "title": "Seleziona il materiale che vuoi noleggiare"
+      },
+      "confirmation": {
+        "title": "Dettagli della tua prenotazione",
+        "total": "Totale: ",
+        "club": "Club: ",
+        "teacher": "Insegnante: ",
+        "since": "Da: ",
+        "until": "Fino a: ",
+        "buy": "Acquista"
+      },
+      "bookingCompleted": {
+        "title": "Noleggio completato correttamente",
+        "teacher": "Insegnante: ",
+        "club": "Club: ",
+        "paid": "Pagato: "
+      }
+    },
+    "booking": {
+      "title": "Prenotare",
+      "teacher": "Insegnante: ",
+      "club": "Club: ",
+      "showFavorites": "Vedi tutti i miei preferiti",
+      "lastFavorite": "Preferito",
+      "noFavorites": "Non hai preferiti",
+      "errorLoadingLastFavorite": "Si è verificato un errore durante il caricamento del preferito",
+      "lastBooking": "Ultima prenotazione",
+      "noBookings": "Non hai prenotazioni",
+      "errorLoadingLastBooking": "Si è verificato un errore durante il caricamento della tua ultima prenotazione",
+      "exploreCallToActionTitle": "Esplorare",
+      "exploreCallToActionSubtitle": "Seleziona sport, provincia, club…"
+    },
+    "cancellationNote": {
+      "note": "Nota: ",
+      "noteMessage": "Annullabile con diritto al rimborso fino al {{day}} di {{month}} alle {{time}} h. "
+    },
+    "locales": {
+      "es": "Spagnolo",
+      "en": "Inglese",
+      "de": "Tedesca",
+      "it": "Italiana"
+    },
+      "supportEmail": "info@nak-sports.com",
+  "supportPhone": "+34 681 168 842",
+  "whatsappInaki": "+41 77 436 15 40",
+  "whatsappSupport": "+34 699 46 43 30",
+  "contactInaki": "Inaki",
+  "contactSupport": "Support",
+    "search": "Cerca",
+    "skip": "Salta",
+    "okButton": "D'accordo",
+    "noResults": "Nessun risultato",
+    "title": "Nak Sports",
+    "weekDays": {
+      "monday": "Lunedì",
+      "tuesday": "Martedì",
+      "wednesday": "Mercoledì",
+      "thursday": "Giovedì",
+      "friday": "Venerdì",
+      "saturday": "Sabato",
+      "sunday": "Domenica"
+    },
+    "shortenedWeekdays": {
+      "weekDays": {
+        "monday": "lun.",
+        "tuesday": "mar.",
+        "wednesday": "mer.",
+        "thursday": "gio.",
+        "friday": "ven.",
+        "saturday": "sab.",
+        "sunday": "dom."
+      }
+    },
+    "apiException": {
+      "existing_valid_voucher": "Hai già acquistato questo buono e non è ancora scaduto",
+      "payment_intent_failed": "Errore durante il pagamento",
+      "payment_method_not_found": "Si è verificato un errore con il metodo di pagamento",
+      "limit_to_book_exception": "Il termine per la prenotazione di questo corso è scaduto",
+      "user_hash_booking": "Hai già acquistato questo evento in precedenza",
+      "event_price_outdated": "Il prezzo della tua prenotazione attuale è cambiato. Prova a prenotare di nuovo per vedere il nuovo prezzo",
+      "voucher_price_outdated": "Il prezzo del tuo buono attuale è cambiato. Prova a prenotare di nuovo per vedere il nuovo prezzo"
+    },
+    "selectPaymentMethod": {
+      "title": "Seleziona Metodo di Pagamento",
+      "paymentMethod": "Seleziona metodo di pagamento",
+      "paymentMethodLesson": "Seleziona metodo di pagamento della lezione",
+      "paymentMethodLessonAndMaterial": "Seleziona metodo di pagamento della lezione e del materiale",
+      "paymentMethodMaterial": "Seleziona metodo di pagamento del materiale",
+      "noPaymentMethod": "Non ci sono metodi di pagamento configurati.",
+      "noVoucher": "Non ci sono buoni. Acquistane uno.",
+      "errorLoadingPaymentMethods": "Si è verificato un errore durante il caricamento dei metodi di pagamento",
+      "options" : {
+        "card" : "Carta di credito",
+        "voucher" : "Buono"
+      }
+    },
+    "parentalConsent": "Autorizzazione dei genitori",
+    "noPaymentMethodDialog": {
+      "title": "Nessun metodo di pagamento",
+      "message": "Non hai nessun metodo di pagamento configurato. Aggiungi un metodo di pagamento per continuare.",
+      "addPaymentMethod": "Aggiungi metodo di pagamento",
+      "cancel": "Annulla"
+    },
+    "paymentMethodErrorDialog": {
+      "title": "Errore metodo di pagamento",
+      "message": "C'è stato un problema con il tuo metodo di pagamento. Aggiungi un nuovo metodo di pagamento per continuare.",
+      "addPaymentMethod": "Aggiungi metodo di pagamento",
+      "cancel": "Annulla"
+    },
+    "noPaymentMethodAdded": "Nessun metodo di pagamento aggiunto. Riprova.",
+    "bookingLesson.confirmation.total_incl_commission": "Totale (incl. commissione)",
+    "buyCourse.total_incl_commission": "Totale (incl. commissione)",
+    "trainerProfile": {
+      "credentials": "Qualifiche",
+      "experienceAndReviews": "Esperienza e Recensioni",
+      "servicesOffered": "Servizi Offerti",
+      "locationFormat": "Posizione / Formato",
+      "availabilityPricing": "Disponibilità / Prezzi",
+      "notes": "Note",
+      "phone": "Telefono",
+      "email": "Email",
+      "reviews": "recensioni",
+      "personalTraining": "Allenamento Personale",
+      "groupClasses": "Lezioni di Gruppo",
+      "onlineSessions": "Sessioni Online",
+      "from": "Da",
+      "defaultPrice": "40",
+      "calendar": "Calendario",
+      "notesPlaceholder": "Aggiungi le tue note personali su questo istruttore...",
+      "locationNotSpecified": "Posizione non specificata",
+      "noUserDataMessage": "Informazioni del profilo limitate disponibili. Contatta l'istruttore direttamente per maggiori dettagli."
+    },
+    "review": {
+      "writeReview": "Scrivi una Recensione",
+      "rating": "Valutazione",
+      "title": "Titolo della Recensione",
+      "titleHint": "Dai un titolo alla tua recensione",
+      "titleRequired": "Il titolo è richiesto",
+      "titleTooShort": "Il titolo deve essere di almeno 3 caratteri",
+      "comment": "Commento della Recensione",
+      "commentHint": "Condividi la tua esperienza con questo istruttore",
+      "commentRequired": "Il commento è richiesto",
+      "commentTooShort": "Il commento deve essere di almeno 10 caratteri",
+      "anonymous": "Invia anonimamente",
+      "submit": "Invia Recensione",
+      "success": "Recensione inviata con successo!",
+      "error": "Errore nell'invio della recensione. Riprova."
+    }
+  }
+
